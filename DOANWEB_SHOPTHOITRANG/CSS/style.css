@@ -15,7 +15,7 @@
      display: flex;
      align-items: center;
      padding: 10px;  
-     box-shadow: 0px 1px 0px rgba(0,0,0,0.1); 
+     box-shadow: 0px 1px 0px rgba(150, 8, 8, 0.1); 
  }
  nav{
      flex: 1;
@@ -33,9 +33,15 @@
      border-bottom: 0.5px solid #0b53a0;
  }
  nav :hover{
-     color: #fff;
+     color: rgb(157, 19, 40);
  
  }
+ .narbar{
+    display: flex;
+    align-items: center;
+    padding: 10px;  
+    box-shadow: 0px 1px 0px rgba(150, 8, 8, 0.1); 
+}
  a{
      text-decoration: none;
      color: #555;
